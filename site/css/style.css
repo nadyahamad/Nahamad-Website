@@ -1,0 +1,367 @@
+/*= HOME-DESKTOP
+--------------------------------------------------------*/
+body {
+  font-family: "Muli";
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #37474f;
+  background-color: #fff;
+}
+
+.menu{
+    margin-top:0px;
+    padding: 0px;
+    height: 100px;
+}
+
+.menu-mobile{
+     background-color: transparent;
+}
+
+li.active {
+    background-color: #cfcfcf;
+    border: solid #871c54;
+    border-width: 0px 0px 2px 0px;
+}
+
+a.nav-link{
+    margin-top: 1.5rem;
+}
+
+#content{
+    margin-top: 2rem; 
+    margin-bottom: -100px;
+    display: block;
+    min-height: 100vh;
+}
+
+#content:after{
+    content: "";
+    display: block;
+    height: 100px;
+}
+
+h1.main_tittle{
+    color: #37474f; 
+    font-weight:300;
+    font-size: 1.2rem; 
+    border: solid #607D8B;
+    border-width: 0px 0px 0.5px 0px;
+}
+
+.margin{
+    margin-top: 1.5rem; 
+    margin-bottom: 1.5rem;
+}
+
+.card-body-ux {
+    background-color: #37474F;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-card-ux {
+    border-radius: 5px 0px 0px 5px;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+.content-card-ux {
+   color: #fff;
+   padding: 20px 20px 0px 0px;
+}
+
+h3.h3-card{
+    font-weight:500;
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.text-card{
+    font-weight:300;
+    font-size: .9rem;
+}
+
+h4.h4-card{
+    font-weight:500;
+    font-size: 1rem;
+}
+
+.btn-gray{
+    background-color: #E0E0E0;
+    color: #37474F;
+}
+
+a.subtitle-collapse:link {
+    text-decoration: none;
+}
+
+a.subtitle-collapse:hover {
+    text-decoration: none;
+    color: rgba(132,28,84, 0.8) !important;
+}
+
+.card-web{
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bw-pic{
+  -webkit-filter: grayscale(100%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+
+.bw-pic:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .5s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .5s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .5s ease-in-out;
+  filter: grayscale(0%);
+} 
+
+a.web-title{
+    margin: 10px;
+}
+
+a.web-title:hover {
+    text-decoration: none;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0 !important;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: -50px;
+    background-color: #e0e0e0;
+    border: solid #871c54;
+    border-width: 2px 0px 0px 0px;
+}
+
+.social-media {
+    margin-top: 30px;
+}
+
+.credits {
+    margin-top: 10px;
+    font-weight:300;
+    font-size: 11px; 
+    color: #871c54; 
+}
+
+
+
+
+/*= HOME-TABLET
+--------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .img-card-ux {
+       border-radius: 15px 0px 0px 15px;
+       padding: 0px;
+       height: 100%;
+    }
+
+    .content-card-ux {
+       color: #fff;
+       padding: 20px 30px 0px 0px;
+    }
+
+    h3.h3-card{
+        font-weight:500;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+
+    .text-card{
+        font-weight:300;
+        font-size: .7rem;
+    }
+
+    h4.h4-card{
+        font-weight:500;
+        font-size: .9rem;
+    }
+
+    .margin{
+        margin-top: 1.2rem; 
+        margin-bottom: 1.2rem;
+    }
+
+
+ }
+
+
+
+/*= HOME-MOBILE
+--------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .menu{
+        margin-top: 3rem;
+        padding: 0px;
+        height: 100px;
+    }
+
+    .menu-mobile{
+         background-color: #fff;
+    }
+
+    .margin{
+        margin-top: .8rem; 
+        margin-bottom: .8rem;
+    }
+
+}
+
+
+/*= ABOUT
+--------------------------------------------------------*/
+
+section.about{
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    font-size: 1.3rem; 
+    font-weight:300;
+}
+
+
+
+/*= CONTACT
+--------------------------------------------------------*/
+h2.sub-title{ 
+    font-weight:400;
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-top: 20px; 
+}
+
+.text-form{
+    font-size: 1rem; 
+    font-weight:300;
+    margin-top: 50px; 
+}
+
+
+/*= CONTACT-MOBILE
+--------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    h2.sub-title{ 
+        font-weight:500;
+        font-size: 1.3rem;
+        margin-top: 30px; 
+    }
+
+}
+
+
+/*= PORTFOLIO-DESKTOP
+--------------------------------------------------------*/
+
+.card-content{
+    margin-top: 20px;
+}
+
+.text-portfolio{
+    font-weight:200;
+    font-size: 1.2rem; 
+}
+
+.role-bg{
+   background-color: #E0E0E0;
+   padding: 10px;
+}
+
+.banner-portfolio{
+    background-color: rgba(55, 71, 79, 0.4);
+    border-radius: 5px 0px 0px 5px;
+    padding: 25px;
+}
+
+h3.project_title{
+    color: #871c54; 
+    font-weight:400;
+    font-size: 1.3rem;
+    margin-top: 20px; 
+}
+
+.banner-webs{
+    background-color: rgba(55, 71, 79, 0.4);
+    border-radius: 0px 5px 5px 0px;
+    padding: 25px;
+}
+
+/*= PORTFOLIO-TABLET
+--------------------------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+.text-portfolio{
+    font-weight:200;
+    font-size: 1.2rem; 
+}
+
+
+ }
+
+
+
+/*= PORTFOLIO-MOBILE
+--------------------------------------------------------*/
+
+@media (max-width: 767px) {
+
+    .card-content{
+        margin: 20px;
+    }
+
+    .text-portfolio{
+        font-weight:200;
+        font-size: 1rem; 
+    }
+
+}
+
+/*= MOBILE-VERSION
+--------------------------------------------------------*/
+h1.mobile_title{
+    font-weight:200;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #E0E0E0;
+    margin: 20px 0px;
+}
+
+.card-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: #E0E0E0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+h2.mobile_title{
+    font-weight:200;
+    font-size: 1.3rem; 
+}
+
+.content-card-mobile{
+    color: #37474F;
+    padding: 20px 20px 0px 0px; 
+}
