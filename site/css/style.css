@@ -1,12 +1,18 @@
 /*= HOME-DESKTOP
 --------------------------------------------------------*/
 body {
-  font-family: "Muli";
-  font-size: 1rem;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #37474f;
-  background-color: #fff;
+    font-family: "Muli";
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #37474f;
+    background-color: #fff;
+}
+
+.alert-warning {
+    color: #37474f;
+    background-color: #fff;
+    border-color: #cfcfcf;
 }
 
 .menu{
